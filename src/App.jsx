@@ -2,7 +2,7 @@ import {useState} from 'react'
 import "/src/app.css"
 
 export default function App() {
-  let [color, setColor] = useState('red')
+  let [color, setColor] = useState('red');
   return (
     <>
      <div className="main" style={{backgroundColor : color}}>
@@ -15,6 +15,6 @@ export default function App() {
       </div>
      </div>
     </>
-  )
+  );
 }
 
